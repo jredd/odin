@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'asset_manager',
+    'rest_framework',
 )
 
 MIDDLEWARE_CLASSES = (

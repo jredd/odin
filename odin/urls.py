@@ -7,6 +7,6 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'odin.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
+    url(r'^asset-manager/', include('asset_manager.urls', namespace='asset_manager')),
     url(r'^admin/', include(admin.site.urls)),
 )
